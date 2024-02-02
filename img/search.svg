@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="crop" width="18" height="18" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="search.svg" opacity="0.2" clip-path="url(#clip-path)">
+    <path id="Контур_83" data-name="Контур 83" d="M17.647,16l-3.659-3.659a8.3,8.3,0,1,0-1.653,1.648L16,17.647a1.073,1.073,0,0,0,.826.354A1.179,1.179,0,0,0,18,16.822,1.1,1.1,0,0,0,17.647,16ZM1.5,7.391a5.893,5.893,0,1,1,5.893,5.893A5.893,5.893,0,0,1,1.5,7.391Z" fill="#231f20"/>
+  </g>
+</svg>

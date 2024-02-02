@@ -1,0 +1,29 @@
+.about {
+  padding: 0 30px;
+
+  @media (min-width: @tablet-width) {
+    padding: 0 50px;
+  }
+
+  @media (min-width: @desktop-width) {
+    padding-left: 175px;
+  }
+}
+
+.about__title {
+
+}
+
+.about__list {
+  @media (min-width: @tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 50px;
+  }  
+}
+
+.about__item {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 700;
+}
