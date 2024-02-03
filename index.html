@@ -112,9 +112,17 @@
 
         <div class="special__info">
           <p class="special__picture">
-            <img class="special__img" src="" width="" height="" alt="Вязанные корзинки">
+            <picture>
+              <source type="image/webp" media="(min-width: 1150px)" srcset="img/special-product/triple-set-desktop.webp 1x, img/special-product/triple-set-desktop@x2.webp 2x">
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/special-product/triple-set-tablet.webp 1x, img/special-product/triple-set-tablet@x2.webp 2x">
+              <source type="image/webp" srcset="img/special-product/triple-set-mobile.webp 1x, img/special-product/triple-set-mobile@x2.webp 2x">
+            
+              <source media="(min-width: 1150px)" srcset="img/special-product/triple-set-desktop.jpg 1x, img/special-product/triple-set-desktop@x2.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/special-product/triple-set-tablet.jpg 1x, img/special-product/triple-set-tablet@x2.jpg 2x">
+              <img class="special__img" src="img/special-product/triple-set-mobile.jpg" srcset="img/special-product/triple-set-mobile@x2.jpg 2x" width="260" height="315" alt="Вязанные корзинки">
+            </picture>
           </p>
-          <p class="special__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках и трех размерах.</p>
+          <p class="special__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
           <table class="special__table special-table">
             <tr class="special-table__row">
               <th class="special-table__cell special-table__header">Цвет:</th>
